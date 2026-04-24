@@ -420,3 +420,271 @@ footer .sep { color: var(--accent); margin: 0 0.5rem; }
     transition: none !important;
   }
 }
+
+/* RESUME PAGE */
+.resume {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 7rem 2.5rem 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+.resume-header {
+  margin-bottom: 3.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--accent-soft);
+}
+
+.resume-header h1 {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 120;
+  font-size: clamp(38px, 5.5vw, 58px);
+  line-height: 1.08;
+  letter-spacing: -0.022em;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+
+.resume-meta {
+  font-size: 15px;
+  color: var(--secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.resume-meta a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+  padding-bottom: 1px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.resume-meta a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.resume-actions {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pdf-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  text-decoration: none;
+  padding: 0.75rem 1.4rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.pdf-link:hover {
+  background: #9A442F;
+}
+
+.back-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 3px;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover { color: var(--accent); }
+
+.resume-section {
+  margin-bottom: 3.5rem;
+}
+
+.resume-section.intro p {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--text);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.resume-section-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--accent-soft);
+}
+
+.role {
+  margin-bottom: 2.25rem;
+}
+
+.role:last-child { margin-bottom: 0; }
+
+.role.compressed { opacity: 0.85; }
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.role-head h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.role-dates {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--secondary);
+  white-space: nowrap;
+}
+
+.role-company {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 16px;
+  color: var(--secondary);
+  margin-bottom: 0.9rem;
+}
+
+.role-note {
+  font-size: 15px;
+  color: var(--secondary);
+  line-height: 1.55;
+  margin-top: 0.5rem;
+}
+
+.role ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.role ul li {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text);
+  padding-left: 1.25rem;
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.role ul li:last-child { margin-bottom: 0; }
+
+.role ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-family: 'Fraunces', serif;
+}
+
+.recognition-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recognition-list li {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  padding-left: 1.25rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.recognition-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+}
+
+.recognition-list strong {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.skills-list {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.skills-list > div {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+.skills-list dt {
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.skills-list dd {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0;
+}
+
+.resume-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--accent-soft);
+}
+
+@media (max-width: 700px) {
+  .resume {
+    padding: 5rem 1.5rem 3rem;
+  }
+  .resume-header h1 {
+    font-size: 34px;
+  }
+  .resume-meta { font-size: 14px; }
+  .resume-section.intro p { font-size: 18px; }
+  .role-head h3 { font-size: 18px; }
+  .role-dates { font-size: 11.5px; }
+  .role-company { font-size: 15px; }
+  .role ul li, .recognition-list li, .skills-list dd { font-size: 15px; }
+  .skills-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+  .resume-actions { gap: 1rem; }
+}
