@@ -163,21 +163,28 @@ export default function WorkPage() {
           </p>
         </article>
 
-        <article className="work-item">
+        <article className="work-item has-page">
           <div className="work-item-head">
-            <h2>Skip Pay</h2>
+            <h2>
+              <Link href="/work/skippay">Skip Pay</Link>
+            </h2>
             <span className="work-item-meta">Founder &amp; CEO &middot; Oct 2021 — Aug 2022</span>
           </div>
           <p>
-            Built a contactless payment and personal finance app for Egypt,
-            Libya, and Iraq — driven by firsthand understanding of financial
-            exclusion from I-SCORE credit infrastructure work. 300+ customer
-            interviews before building. Functional beta on Google Play.
-            Finalist at Orange Corners, the Netherlands-funded international
-            accelerator. Shut down cleanly when licensing failed rather than
-            drag it out. The co-founding team is now at Hala (Saudi Arabia),
-            the Libyan Investment Authority, Fly Emirates, and Abu Dhabi MFA.
+            Built a contactless payment and personal finance app launched
+            in Egypt, designed for a regional rollout into Libya and Iraq
+            &mdash; driven by firsthand understanding of financial exclusion
+            from I-SCORE credit infrastructure work. 300+ customer interviews
+            with Hotjar behavior analytics layered on top. Functional beta
+            on Google Play. Finalist at Orange Corners, the Netherlands-funded
+            international accelerator. Shut down cleanly when the licensing
+            path closed rather than drag it out. The co-founding team is now
+            at Hala (Saudi Arabia), the Libyan Investment Authority, Fly
+            Emirates, and Abu Dhabi MFA.
           </p>
+          <Link href="/work/skippay" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
         <article className="work-item">
