@@ -187,22 +187,27 @@ export default function WorkPage() {
           </Link>
         </article>
 
-        <article className="work-item">
+        <article className="work-item has-page">
           <div className="work-item-head">
-            <h2>I-SCORE — Egyptian Credit Bureau</h2>
+            <h2>
+              <Link href="/work/iscore">I-SCORE — Egyptian Credit Bureau</Link>
+            </h2>
             <span className="work-item-meta">Technical Product Manager &middot; Jan 2021 — Dec 2021</span>
           </div>
           <p>
-            First Technical PM at Egypt&rsquo;s national credit bureau — the
-            infrastructure underneath every bank and financial institution in
-            the country. Led the launch of four application versions across
-            I-SCORE&rsquo;s product suite in a high-security on-premise
-            environment. Owned the product and technical relationship with the
-            external vendor, translating between database teams, network
-            infrastructure, security, and Central Bank stakeholders. Much of
-            this work is covered by NDA; the structural reality is what can be
-            shared.
+            First Technical PM at Egypt&rsquo;s national credit bureau &mdash;
+            the data layer underpinning credit decisions across every bank,
+            financial institution, and microfinance provider in the country.
+            Led the launch of four application versions across I-SCORE&rsquo;s
+            product suite in a high-security on-premise environment. Owned
+            the product and technical relationship with the external vendor,
+            translating between database teams, network infrastructure,
+            security, and Central Bank stakeholders. Much of this work is
+            covered by NDA; the structural reality is what can be shared.
           </p>
+          <Link href="/work/iscore" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
         <article className="work-item">

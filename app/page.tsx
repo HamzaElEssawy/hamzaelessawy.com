@@ -201,7 +201,7 @@ export default function Home() {
               info@hamzaelessawy.com
             </a>{' '}
             ·{' '}
-            <a href="https://wa.me/37065508570" className="contact-link">
+            <a href="https://wa.me/601154303152" className="contact-link">
               WhatsApp
             </a>
           </p>
