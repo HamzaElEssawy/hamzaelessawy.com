@@ -123,9 +123,11 @@ export default function WorkPage() {
           </p>
         </article>
 
-        <article className="work-item">
+        <article className="work-item has-page">
           <div className="work-item-head">
-            <h2>Tapway</h2>
+            <h2>
+              <Link href="/work/tapway">Tapway</Link>
+            </h2>
             <span className="work-item-meta">Senior Product Manager &middot; Feb 2023 — Jul 2024</span>
           </div>
           <p>
@@ -133,12 +135,15 @@ export default function WorkPage() {
             angiogram, to lead product at a loss-making AI computer vision
             company with no CTO, no technical lead, no solution architect.
             Turned the company profitable by RM500K within 18 months. Built
-            <em> Samurai Central</em> and <em>Samurai Copilot</em> — a no-code
-            CV platform that became Malaysia&rsquo;s first computer vision ISV
-            on AWS Marketplace. Deployments at Changi Airport, Penang Port,
-            Petronas, Sime Darby, and KLK Palm Oil across five Southeast Asian
-            countries. Case study coming.
+            <em> SamurAI Central</em> and <em>SamurAI Copilot</em> &mdash; a
+            no-code CV platform that became Malaysia&rsquo;s first computer
+            vision ISV on AWS Marketplace. Deployments at Changi Airport,
+            Penang Port, Petronas, Sime Darby, KLK Palm Oil, and ZUS Coffee
+            across five Southeast Asian countries.
           </p>
+          <Link href="/work/tapway" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
         <article className="work-item">
