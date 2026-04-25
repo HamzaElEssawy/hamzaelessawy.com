@@ -71,19 +71,27 @@ export default function WorkPage() {
           </p>
         </article>
 
-        <article className="work-item">
+        <article className="work-item has-page">
           <div className="work-item-head">
-            <h2>BrioHR <span className="work-item-badge">YC W21</span></h2>
-            <span className="work-item-meta">Product Management Consultant &middot; Feb 2025 — Oct 2025</span>
+            <h2>
+              <Link href="/work/briohr">BrioHR <span className="work-item-badge">YC W21</span></Link>
+            </h2>
+            <span className="work-item-meta">Product Management Consultant (embedded full-time) &middot; Feb 2025 — Oct 2025</span>
           </div>
           <p>
-            Joined pre-Series A during a period of significant company growth
-            and hiring — one of only two PMs in the organization. Led AI
-            adoption strategy across BrioHR&rsquo;s HR platform, identifying
-            where AI creates real product value rather than surface-level
-            features. Navigated the organizational dynamics of introducing AI
-            into an established team.
+            Brought in as a Product Management Consultant but operated
+            full-time as one of only two PMs in the organisation. Joined
+            during a period of significant growth and hiring, and was there
+            through the company&rsquo;s Series A close and announcement.
+            Closed the feature-and-issue intake gap, pushed the analytics
+            foundation, revamped Recruit, Onboarding, and Time &amp; Attendance
+            (with shift management as a first-class capability), and led AI
+            adoption strategy across the platform &mdash; rolled out one
+            module at a time, with the accuracy bar honest from day one.
           </p>
+          <Link href="/work/briohr" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
         <article className="work-item">
@@ -92,20 +100,43 @@ export default function WorkPage() {
             <span className="work-item-meta">Multiple Clients &middot; Jun 2024 — Jan 2025</span>
           </div>
           <p>
-            Four engagements in parallel.{' '}
-            <em>OtonocoAI</em> — built their regulatory AI compliance product
-            from zero including a document comparison tool; company raised
-            pre-seed from Antler.{' '}
-            <em>Trisilco</em> — six months embedded with the CEO on a live
-            CIMB credit-scoring project, bringing direct I-SCORE credit bureau
-            expertise into the engagement.{' '}
-            <em>EY Malaysia</em> — designed and delivered an AI and RAG
-            workshop for EY employees.{' '}
-            <em>AI Tinkerers KL (Co-Director)</em> — grew KL&rsquo;s most
-            active AI practitioner community into a direct pipeline for
-            consulting work, client introductions, and funded startup
+            Three engagements in parallel.{' '}
+            <em>OtonocoAI</em> &mdash; built their regulatory AI compliance
+            product from zero including a document comparison tool; company
+            raised pre-seed from Antler.{' '}
+            <em>Trisilco</em> &mdash; six months embedded with the CEO on a
+            live CIMB credit-scoring project, bringing direct I-SCORE credit
+            bureau expertise into the engagement.{' '}
+            <em>AI workshops</em> &mdash; designed and delivered AI and RAG
+            workshops for senior teams at a Big 4 firm and major Malaysian
+            enterprises including Paynet, the operator of the country&rsquo;s
+            national payments infrastructure.
+          </p>
+        </article>
+
+        <article className="work-item has-page">
+          <div className="work-item-head">
+            <h2>
+              <Link href="/work/ai-tinkerers">AI Tinkerers KL</Link>
+            </h2>
+            <span className="work-item-meta">Co-Director (volunteer) &middot; Aug 2024 — Sep 2025</span>
+          </div>
+          <p>
+            Co-Director of the Kuala Lumpur chapter of AI Tinkerers, a
+            global community of AI practitioners building real things with
+            frontier tools. From kickoff in August 2024 through September
+            2025, took the chapter from a single monthly meetup to a
+            twice-monthly cadence with two distinct tracks (builder and
+            business) plus practitioner hackathons. Built a partner layer
+            across Antler, YTL AI Labs, Grab, TDCX, Paynet, Moneylion,
+            Asia Business School, and others. The community became a
+            direct pipeline into consulting work, client introductions,
+            AI workshops at major enterprises, and funded startup
             collaborations.
           </p>
+          <Link href="/work/ai-tinkerers" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
         <article className="work-item">
