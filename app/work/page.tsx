@@ -44,31 +44,44 @@ export default function WorkPage() {
           </Link>
         </article>
 
-        <article className="work-item">
+        <article className="work-item has-page">
           <div className="work-item-head">
-            <h2>Xanadu AI Factory</h2>
+            <h2>
+              <Link href="/work/xanadu">Xanadu AI Factory</Link>
+            </h2>
             <span className="work-item-meta">Co-Founder &middot; Jun 2024 — Present</span>
           </div>
           <p>
-            Venture-building operation co-founded with Hussain Al Menyawy
+            AI-focused venture studio co-founded with Hussain Al Menyawy
             (two-time Egyptian founder, networked across Arab, Gulf, and
-            African ecosystems). Thesis: help promising founders validate from
-            the product and business side faster, bypassing endless accelerator
-            cycles. Active with equity stakes. More to show as ventures mature.
+            African ecosystems). Thesis: help promising founders validate
+            from the product and business side faster, bypassing endless
+            accelerator cycles. Active with equity stakes; four ideas in
+            development. More to show as ventures mature.
           </p>
+          <Link href="/work/xanadu" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
-        <article className="work-item">
+        <article className="work-item has-page">
           <div className="work-item-head">
-            <h2>Tapback</h2>
+            <h2>
+              <Link href="/work/tapback">Tapback</Link>
+            </h2>
             <span className="work-item-meta">Product Consultant &middot; Via Xanadu</span>
           </div>
           <p>
-            Restaurant-tech startup now operating in Saudi Arabia. Revamped the
-            core product, introduced pre-order and table-reservation models,
-            reshaped the revenue model. Currently in final stages of a
-            licensing deal with a major Saudi financial institution.
+            Restaurant-tech startup now operating in Saudi Arabia. Revamped
+            the core product, introduced table reservation and pre-order as
+            first-class capabilities, reshaped the revenue model, and moved
+            the team from two-week to one-week sprints with a faster
+            BRD-to-prototype path. Currently in final stages of a licensing
+            deal with a major Saudi financial institution.
           </p>
+          <Link href="/work/tapback" className="read-more">
+            Read the case study &rarr;
+          </Link>
         </article>
 
         <article className="work-item has-page">
@@ -94,16 +107,37 @@ export default function WorkPage() {
           </Link>
         </article>
 
+        <article className="work-item has-page">
+          <div className="work-item-head">
+            <h2>
+              <Link href="/work/otonocoai">OtonocoAI</Link>
+            </h2>
+            <span className="work-item-meta">Independent AI Product Consultant &middot; 2024 — Jan 2025</span>
+          </div>
+          <p>
+            Helped a regulatory AI compliance startup move <em>Nakhoda</em>
+            &mdash; their flagship AI compliance product for capital markets
+            and financial institutions &mdash; from a developer-mode prototype
+            to a production-ready MVP, on a pre-seed runway with an Antler
+            funding decision approaching. Defined the MVP the round would be
+            evaluated against, built prototype-side acceleration, helped
+            place specific calibres into the team within budget, and joined
+            the early customer pilot meetings with Malaysia&rsquo;s largest
+            financial institution and one of the country&rsquo;s top-five
+            banks. Antler closed a USD $110K pre-seed in February 2025.
+          </p>
+          <Link href="/work/otonocoai" className="read-more">
+            Read the case study &rarr;
+          </Link>
+        </article>
+
         <article className="work-item">
           <div className="work-item-head">
             <h2>Independent AI Product Consultant</h2>
             <span className="work-item-meta">Multiple Clients &middot; Jun 2024 — Jan 2025</span>
           </div>
           <p>
-            Three engagements in parallel.{' '}
-            <em>OtonocoAI</em> &mdash; built their regulatory AI compliance
-            product from zero including a document comparison tool; company
-            raised pre-seed from Antler.{' '}
+            Two further engagements in parallel.{' '}
             <em>Trisilco</em> &mdash; six months embedded with the CEO on a
             live CIMB credit-scoring project, bringing direct I-SCORE credit
             bureau expertise into the engagement.{' '}
